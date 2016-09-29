@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0604421F906178BD59978B8A /* Pods_SimpleBlogApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C3B64F12D0F6E4167D4BAB /* Pods_SimpleBlogApp.framework */; };
+		162CD4D61D9C73E5009329CC /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162CD4D51D9C73E5009329CC /* Onboarding.storyboard */; };
+		1676F51F1D9C6EA700478817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1676F51E1D9C6EA700478817 /* AppDelegate.swift */; };
+		1676F5261D9C6EA700478817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1676F5251D9C6EA700478817 /* Assets.xcassets */; };
+		1676F5291D9C6EA700478817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1676F5271D9C6EA700478817 /* LaunchScreen.storyboard */; };
+		167DABFF1D9D99FB003F4FFD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DABFE1D9D99FB003F4FFD /* LoginViewController.swift */; };
+		167DAC041D9DA8BD003F4FFD /* SignUpViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DAC031D9DA8BD003F4FFD /* SignUpViewController1.swift */; };
+		167DAC061D9DAA17003F4FFD /* SignUpViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DAC051D9DAA17003F4FFD /* SignUpViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		162CD4D51D9C73E5009329CC /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		1676F51B1D9C6EA700478817 /* SimpleBlogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBlogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1676F51E1D9C6EA700478817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1676F5251D9C6EA700478817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1676F5281D9C6EA700478817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1676F52A1D9C6EA700478817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167DABFE1D9D99FB003F4FFD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		167DAC031D9DA8BD003F4FFD /* SignUpViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController1.swift; sourceTree = "<group>"; };
+		167DAC051D9DAA17003F4FFD /* SignUpViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController2.swift; sourceTree = "<group>"; };
+		2CE9552B26257E0F9D4DB936 /* Pods-SimpleBlogApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleBlogApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleBlogApp/Pods-SimpleBlogApp.debug.xcconfig"; sourceTree = "<group>"; };
+		58C3B64F12D0F6E4167D4BAB /* Pods_SimpleBlogApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleBlogApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93448A8E4DC7B8E02DDE1B81 /* Pods-SimpleBlogApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleBlogApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleBlogApp/Pods-SimpleBlogApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1676F5181D9C6EA700478817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604421F906178BD59978B8A /* Pods_SimpleBlogApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1676F5121D9C6EA700478817 = {
+			isa = PBXGroup;
+			children = (
+				1676F51D1D9C6EA700478817 /* SimpleBlogApp */,
+				1676F51C1D9C6EA700478817 /* Products */,
+				C46ACE2DAD2C4FFA5A9EE56F /* Pods */,
+				94A3A45644826A2EF4C19DF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1676F51C1D9C6EA700478817 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1676F51B1D9C6EA700478817 /* SimpleBlogApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1676F51D1D9C6EA700478817 /* SimpleBlogApp */ = {
+			isa = PBXGroup;
+			children = (
+				1676F5331D9C6FD700478817 /* controllers */,
+				1676F5301D9C6F9200478817 /* views */,
+				1676F5321D9C6FC200478817 /* supporting_files */,
+				1676F5251D9C6EA700478817 /* Assets.xcassets */,
+				1676F52A1D9C6EA700478817 /* Info.plist */,
+			);
+			path = SimpleBlogApp;
+			sourceTree = "<group>";
+		};
+		1676F5301D9C6F9200478817 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				1676F5271D9C6EA700478817 /* LaunchScreen.storyboard */,
+				162CD4D51D9C73E5009329CC /* Onboarding.storyboard */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		1676F5321D9C6FC200478817 /* supporting_files */ = {
+			isa = PBXGroup;
+			children = (
+				1676F51E1D9C6EA700478817 /* AppDelegate.swift */,
+			);
+			name = supporting_files;
+			sourceTree = "<group>";
+		};
+		1676F5331D9C6FD700478817 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				167DAC001D9DA60C003F4FFD /* Onboarding */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		167DAC001D9DA60C003F4FFD /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				167DABFE1D9D99FB003F4FFD /* LoginViewController.swift */,
+				167DAC031D9DA8BD003F4FFD /* SignUpViewController1.swift */,
+				167DAC051D9DAA17003F4FFD /* SignUpViewController2.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		94A3A45644826A2EF4C19DF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58C3B64F12D0F6E4167D4BAB /* Pods_SimpleBlogApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C46ACE2DAD2C4FFA5A9EE56F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CE9552B26257E0F9D4DB936 /* Pods-SimpleBlogApp.debug.xcconfig */,
+				93448A8E4DC7B8E02DDE1B81 /* Pods-SimpleBlogApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1676F51A1D9C6EA700478817 /* SimpleBlogApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1676F52D1D9C6EA700478817 /* Build configuration list for PBXNativeTarget "SimpleBlogApp" */;
+			buildPhases = (
+				BD35CBEA02F4961E2323A9AC /* [CP] Check Pods Manifest.lock */,
+				1676F5171D9C6EA700478817 /* Sources */,
+				1676F5181D9C6EA700478817 /* Frameworks */,
+				1676F5191D9C6EA700478817 /* Resources */,
+				E8F39C17D9AE5276BF7B82AD /* [CP] Embed Pods Frameworks */,
+				41AB70DA9256ED9AFC8E672F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleBlogApp;
+			productName = SimpleBlogApp;
+			productReference = 1676F51B1D9C6EA700478817 /* SimpleBlogApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1676F5131D9C6EA700478817 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ThinkDWM;
+				TargetAttributes = {
+					1676F51A1D9C6EA700478817 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 65K48ZLK8H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1676F5161D9C6EA700478817 /* Build configuration list for PBXProject "SimpleBlogApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1676F5121D9C6EA700478817;
+			productRefGroup = 1676F51C1D9C6EA700478817 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1676F51A1D9C6EA700478817 /* SimpleBlogApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1676F5191D9C6EA700478817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1676F5291D9C6EA700478817 /* LaunchScreen.storyboard in Resources */,
+				1676F5261D9C6EA700478817 /* Assets.xcassets in Resources */,
+				162CD4D61D9C73E5009329CC /* Onboarding.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41AB70DA9256ED9AFC8E672F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleBlogApp/Pods-SimpleBlogApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD35CBEA02F4961E2323A9AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8F39C17D9AE5276BF7B82AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleBlogApp/Pods-SimpleBlogApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1676F5171D9C6EA700478817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167DAC041D9DA8BD003F4FFD /* SignUpViewController1.swift in Sources */,
+				167DAC061D9DAA17003F4FFD /* SignUpViewController2.swift in Sources */,
+				167DABFF1D9D99FB003F4FFD /* LoginViewController.swift in Sources */,
+				1676F51F1D9C6EA700478817 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1676F5271D9C6EA700478817 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1676F5281D9C6EA700478817 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1676F52B1D9C6EA700478817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1676F52C1D9C6EA700478817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1676F52E1D9C6EA700478817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9552B26257E0F9D4DB936 /* Pods-SimpleBlogApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 65K48ZLK8H;
+				INFOPLIST_FILE = SimpleBlogApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.directworksmobile.SimpleBlogApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1676F52F1D9C6EA700478817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93448A8E4DC7B8E02DDE1B81 /* Pods-SimpleBlogApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 65K48ZLK8H;
+				INFOPLIST_FILE = SimpleBlogApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.directworksmobile.SimpleBlogApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1676F5161D9C6EA700478817 /* Build configuration list for PBXProject "SimpleBlogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1676F52B1D9C6EA700478817 /* Debug */,
+				1676F52C1D9C6EA700478817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1676F52D1D9C6EA700478817 /* Build configuration list for PBXNativeTarget "SimpleBlogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1676F52E1D9C6EA700478817 /* Debug */,
+				1676F52F1D9C6EA700478817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1676F5131D9C6EA700478817 /* Project object */;
+}

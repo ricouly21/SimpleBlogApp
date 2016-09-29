@@ -1,0 +1,7 @@
+*.DS_Store
+*.lock
+*.xcworkspace
+
+Pods
+SimpleBlogApp.xcodeproj/xcuserdata/*
+iOSInjectionProject/
