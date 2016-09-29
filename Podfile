@@ -5,8 +5,11 @@ target 'SimpleBlogApp' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   
-  pod 'IQKeyboardManagerSwift'
-
   # Pods for SimpleBlogApp
+  pod 'Google/SignIn'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  
+  pod 'IQKeyboardManagerSwift'
 
 end

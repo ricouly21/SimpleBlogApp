@@ -68,7 +68,7 @@
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="U9d-ul-NSE">
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAI-Xi-r9W">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAI-Xi-r9W" customClass="FBSDKLoginButton">
                                                                 <color key="backgroundColor" red="0.76862745099999996" green="0.77647058820000003" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <state key="normal" title="Button"/>
                                                             </button>
@@ -114,6 +114,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="gPa-e9-ktk"/>
                     <connections>
+                        <outlet property="facebookLoginButton" destination="PAI-Xi-r9W" id="hai-G8-Cuv"/>
                         <outlet property="loginButton" destination="3f6-gR-bU9" id="0cU-IK-S9d"/>
                         <outlet property="passwordTextField" destination="7Ga-bF-e9C" id="wJn-BQ-v9f"/>
                         <outlet property="scrollView" destination="gyM-vy-6kS" id="WlA-M1-eay"/>
@@ -340,7 +341,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ltg-5M-6F4" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3ki-Zm-cLb">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="3ki-Zm-cLb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

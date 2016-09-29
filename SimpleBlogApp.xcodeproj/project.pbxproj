@@ -69,7 +69,6 @@
 				1676F5301D9C6F9200478817 /* views */,
 				1676F5321D9C6FC200478817 /* supporting_files */,
 				1676F5251D9C6EA700478817 /* Assets.xcassets */,
-				1676F52A1D9C6EA700478817 /* Info.plist */,
 			);
 			path = SimpleBlogApp;
 			sourceTree = "<group>";
@@ -86,6 +85,7 @@
 		1676F5321D9C6FC200478817 /* supporting_files */ = {
 			isa = PBXGroup;
 			children = (
+				1676F52A1D9C6EA700478817 /* Info.plist */,
 				1676F51E1D9C6EA700478817 /* AppDelegate.swift */,
 			);
 			name = supporting_files;
